@@ -1,15 +1,5 @@
-/* General Style  */
-body {
-    font-family: tahoma
-}
 
-.container {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto
-}
-
-/****************************** Start One Page ******************************************/
+/****************************** Start One Page W ******************************************/
 .box_start {
     height: 100vh;
     display: flex;
@@ -86,4 +76,4 @@ body {
         flex-direction: column;
     }
 }
-/****************************** End One Page ******************************************/
+/****************************** End One Page W ******************************************/
