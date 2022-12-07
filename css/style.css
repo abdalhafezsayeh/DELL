@@ -1,0 +1,89 @@
+/* General Style  */
+body {
+    font-family: tahoma
+}
+
+.container {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/****************************** Start One Page ******************************************/
+.box_start {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+/* text */
+.box_start .box_right ._text {
+    width: 100%;
+}
+
+.box_start .box_right ._text h1 {
+    color: #333;
+}
+
+.box_start .box_right ._text p {
+    line-height: 1.7rem;
+    color: #444;
+}
+
+.box_start .box_right ._text p a {
+    color: #111
+}
+
+/* buttons */
+.box_start .box_right ._buttons button {
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: #555;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    font-size: 15px;
+}
+
+.box_start .box_right ._buttons button:first-of-type {
+    padding: 10px 50px;
+    margin-right: 10px;
+    background-color: #36f;
+    color: #FFF;
+}
+
+/**** Media Tablet In One Page *****/
+
+@media only screen and (min-width:950px) {
+    .box_start {
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    /* image  */
+    .box_start .box_left {
+        width: 100%;
+    }
+
+    .box_start .box_left img {
+        width: 100%;
+    }
+    /* text */
+    .box_start .box_right ._text {
+        text-align: center;
+    }   
+    /* buttons */
+    .box_start .box_right ._buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/****************************** End One Page ******************************************/
