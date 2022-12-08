@@ -5,13 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/general.css">
     <link rel="stylesheet" href="./css/register.css">
 </head>
 <body>
     
-    
+    <!-- Start Section register -->
+    <section class="container">
+        <!-- Start Welcome Start Action  -->
+        <div class="box_start">
+            <!-- box left -->
+            <div class="box_left">
+                <img src="./images/Image Placeholder (1).png" alt="register">
+            </div>
+
+            <!-- box right -->
+            <div class="box_right">
+                <!-- text about Welcome -->
+                <div class="_text">
+                    <h1>Create Account</h1>
+                    <p>Go ahead and sign up, let everyone <br/> Know how awesome you are!</p>
+                </div>
+                <!-- Two Button -->
+                <div class="box_form">
+                    <form action="#" id="up">
+                            <span>
+                                <i class="fa fa-user-o" aria-hidden="true"></i>
+                                <input type="text" id="fname" name="fname" placeholder="Username " required>
+                            </span>
+                            <span>
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                <input type="email" id="ename" name="ename" placeholder="Email" required> 
+                            </span>
+                            <span>
+                                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                <input type="password" id="pasOne" name="lname" placeholder="Password" required> 
+                            </span>
+                            <span>
+                                <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                <input type="password" id="pasTwo" name="lname" placeholder="Confirm Password " required>
+                            </span>
+                        <!-- submit -->
+                        <button onclick="sginUp()">Create Account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- End Welcome Start Action  -->
+    </section>  
 
 
 </body>
