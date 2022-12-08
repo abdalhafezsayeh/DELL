@@ -29,28 +29,29 @@
 
 
 /* input */
-.box_start .box_form form span {
+.box_start .box_form form div {
     display: flex;
     border: 1px solid #9cadf2;
     align-items: center;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 20px;
     padding: 5px;
     padding-left: 20px;
     border-radius: 8px;
     color: #FFF;
     background-color: #FFF;
+    position: relative;
 
 }
 
-.box_start .box_form form span i {
+.box_start .box_form form div i {
     border-right: 1px solid #9cadf2;
     padding-right: 15px;
     color: #9cadf2;
     background-color: #FFF;
 }
 
-.box_start .box_form form span input {
+.box_start .box_form form div input {
     width: 100%;
     height: 40px;
     border: none;
@@ -60,7 +61,7 @@
 }
 
 /* Button */
-.box_start .box_form form button {
+.box_start .box_form form .reg {
     margin-top: 20px;
     padding: 15px 50px;
     margin-right: 10px;
@@ -70,9 +71,24 @@
     width: 100%;
     border-radius: 8px;
     letter-spacing: 1px;
+    cursor: pointer;
 
 }
 
+small {
+    color: red;
+    position: absolute;
+    bottom: -19px;
+    left:2px
+}
+
+.form-field.error {
+    border:1px solid red !important;
+}
+
+.form-field.success {
+    border: 1px solid #28a745 !important;
+}
 
 /**** Media Two Page *****/
 

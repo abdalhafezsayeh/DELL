@@ -30,25 +30,30 @@
                 </div>
                 <!-- Two Button -->
                 <div class="box_form">
-                    <form action="#" id="up">
-                            <span>
+                    <form id="signup">
+                            <div  class="form-field">
                                 <i class="fa fa-user-o" aria-hidden="true"></i>
-                                <input type="text" id="fname" name="fname" placeholder="Username " required>
-                            </span>
-                            <span>
+                                <input type="text" id="username" name="username" placeholder="Username" autocomplete="off" required>
+                                <small></small>
+                            </div>
+                            <div  class="form-field">
                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                <input type="email" id="ename" name="ename" placeholder="Email" required> 
-                            </span>
-                            <span>
+                                <input type="text" id="email" name="email" placeholder="Email" autocomplete="off" required> 
+                                <small></small>
+                            </div>
+                            <div class="form-field">
                                 <i class="fa fa-unlock-alt" aria-hidden="true"></i>
-                                <input type="password" id="pasOne" name="lname" placeholder="Password" required> 
-                            </span>
-                            <span>
+                                <input type="password" id="password" name="password" placeholder="Password" autocomplete="off" required> 
+                                <small></small>
+                            </div>
+                            <div class="form-field">
                                 <i class="fa fa-unlock-alt" aria-hidden="true"></i>
-                                <input type="password" id="pasTwo" name="lname" placeholder="Confirm Password " required>
-                            </span>
+                                <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password" autocomplete="off" required>
+                                <small></small>
+                            </div>
                         <!-- submit -->
-                        <button onclick="sginUp()">Create Account</button>
+                        <!-- <button onclick="sginUp()">Create Account</button> -->
+                        <input class="reg" type="submit" value="Create Account">
                     </form>
                 </div>
             </div>
@@ -57,5 +62,6 @@
     </section>  
 
 
+    <script src="./js/main.js"></script>
 </body>
 </html>
