@@ -1,0 +1,45 @@
+.box_start {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.box_start .box_right ._text h1 {
+    color: #333;
+}
+
+.box_start .box_right ._text p {
+    line-height: 1.7rem;
+    color: #444;
+}
+
+
+/**** Media Tablet In One Page *****/
+
+@media only screen and (max-width:950px) {
+    .box_start {
+        flex-direction: column;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    /* image  */
+    .box_start .box_left {
+        width: 100%;
+    }
+
+    .box_start .box_left img {
+        width: 100%;
+    }
+    /* text */
+    .box_start .box_right ._text {
+        text-align: center;
+    }   
+    .box_start .box_right ._text h1 {
+        font-size: 20px;
+    }
+}

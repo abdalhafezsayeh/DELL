@@ -11,6 +11,7 @@
 .box_start .box_right {
     width: 35%;
 }
+
 /* text */
 .box_start .box_right ._text {
     margin-bottom: 40px;
@@ -19,6 +20,7 @@
 .box_start .box_right ._text h1 {
     letter-spacing: 1px;
 }
+
 .box_start .box_right ._text p {
     letter-spacing: 1px;
     line-height: 1.5rem;
@@ -38,7 +40,7 @@
     border-radius: 8px;
     color: #FFF;
     background-color: #FFF;
-  
+
 }
 
 .box_start .box_form form span i {
@@ -50,12 +52,13 @@
 
 .box_start .box_form form span input {
     width: 100%;
-    height:40px;
+    height: 40px;
     border: none;
     padding-left: 10px;
     outline: none;
 
 }
+
 /* Button */
 .box_start .box_form form button {
     margin-top: 20px;
@@ -63,27 +66,29 @@
     margin-right: 10px;
     background-color: #36f;
     color: #FFF;
-    border:none;
+    border: none;
     width: 100%;
     border-radius: 8px;
     letter-spacing: 1px;
-    
+
 }
 
 
-/**** Media Tablet In One Page *****/
+/**** Media Two Page *****/
 
 @media only screen and (max-width:950px) {
     .box_start {
         flex-direction: column;
         height: 100%;
         text-align: center;
-        
+
     }
+
     .box_start .box_right {
         width: 80%;
     }
 }
+
 
 @media only screen and (max-width:600px) {
 
@@ -95,9 +100,10 @@
     .box_start .box_left img {
         width: 100%;
     }
+
     /* text */
     .box_start .box_right ._text {
         text-align: center;
-    }   
+    }
 
 }
