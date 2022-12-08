@@ -180,7 +180,7 @@ form.addEventListener('submit', function (e) {
 
             localStorage.setItem("user",stringified )
             form.setAttribute("action","./successfully.html")
-            window.location.replace("/Task-User-Flow-/successfully.html");
+            window.location.replace("/successfully.html");
           })
           .catch((error) => {
             console.error('Error:', error);
